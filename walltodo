@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+set -eu
+
+DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+PYTHON="$DIR/.venv/bin/python"
+
+if [ ! -x "$PYTHON" ]; then
+  PYTHON="$(command -v python3)"
+fi
+
+exec "$PYTHON" "$DIR/walltodo.py" "$@"

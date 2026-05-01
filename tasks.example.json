@@ -1,0 +1,17 @@
+{
+  "title": "Today's Intent",
+  "tasks": [
+    {
+      "text": "Complete the important project",
+      "done": false
+    },
+    {
+      "text": "Review team feedback",
+      "done": false
+    },
+    {
+      "text": "Plan next week",
+      "done": false
+    }
+  ]
+}
