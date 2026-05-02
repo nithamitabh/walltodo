@@ -44,6 +44,7 @@ wallpaper.jpg
 
 # User Data (Keep local, don't commit)
 tasks.json
+config.json
 
 # GNOME Autostart (User-specific)
 .config/autostart/walltodo.desktop
